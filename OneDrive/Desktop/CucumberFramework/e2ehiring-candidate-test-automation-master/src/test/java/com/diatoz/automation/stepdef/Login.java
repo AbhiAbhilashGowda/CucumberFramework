@@ -44,6 +44,7 @@ public class Login extends Base {
 	@Then("^I click on login button$")
 	public void i_click_on_login_button() throws Throwable {
 		Elements.click(LoginPage.clickLogin);
+		System.out.println("updated");
 
 	}
 
